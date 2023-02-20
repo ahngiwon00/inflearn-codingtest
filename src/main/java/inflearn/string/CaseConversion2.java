@@ -3,10 +3,10 @@ package inflearn.string;
 import java.util.Scanner;
 
 
-public class caseConversion2 {
+public class CaseConversion2 {
 
     public static void main(String[] args) {
-        caseConversion2 T = new caseConversion2();
+        CaseConversion2 T = new CaseConversion2();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         System.out.println(T.solution(str));

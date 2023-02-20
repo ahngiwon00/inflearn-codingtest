@@ -4,10 +4,10 @@ package inflearn.string;
 
 import java.util.Scanner;
 
-public class findLetter1 {
+public class FindLetter1 {
 
     public static void main(String[] args) {
-        findLetter1 T = new findLetter1();
+        FindLetter1 T = new FindLetter1();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         char c = sc.next().charAt(0);

@@ -3,10 +3,10 @@ package inflearn.string;
 
 import java.util.Scanner;
 
-public class extractNumbers9 {
+public class ExtractNumbers9 {
 
     public static void main(String[] args) {
-        extractNumbers9 T = new extractNumbers9();
+        ExtractNumbers9 T = new ExtractNumbers9();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         System.out.println(T.solution(str));

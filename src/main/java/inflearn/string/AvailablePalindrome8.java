@@ -3,18 +3,18 @@ package inflearn.string;
 
 import java.util.Scanner;
 
-public class palindromicString7 {
+public class AvailablePalindrome8 {
 
     public static void main(String[] args) {
-        palindromicString7 T = new palindromicString7();
+        AvailablePalindrome8 T = new AvailablePalindrome8();
         Scanner sc = new Scanner(System.in);
-        String str = sc.next();
+        String str = sc.nextLine();
         System.out.println(T.solution(str));
     }
 
     private String solution(String str) {
         String answer = "NO";
-        str = str.toUpperCase();
+        str = str.toUpperCase().replaceAll("[^A-Z]", "");
         String tmp = new StringBuilder(str).reverse().toString();
         if (str.equals(tmp)) {
             answer = "YES";

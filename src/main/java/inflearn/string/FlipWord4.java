@@ -3,9 +3,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
-public class flipWord4 {
+public class FlipWord4 {
     public static void main(String[] args) {
-        flipWord4 T = new flipWord4();
+        FlipWord4 T = new FlipWord4();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         String[] str = new String[n];

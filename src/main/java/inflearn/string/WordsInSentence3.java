@@ -3,10 +3,10 @@ package inflearn.string;
 
 import java.util.Scanner;
 
-public class wordsInSentence3 {
+public class WordsInSentence3 {
 
     public static void main(String[] args) {
-        wordsInSentence3 T = new wordsInSentence3();
+        WordsInSentence3 T = new WordsInSentence3();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         System.out.println(T.solution(str));

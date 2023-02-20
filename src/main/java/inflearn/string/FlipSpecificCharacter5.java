@@ -3,10 +3,10 @@ package inflearn.string;
 
 import java.util.Scanner;
 
-public class flipSpecificCharacter5 {
+public class FlipSpecificCharacter5 {
 
     public static void main(String[] args) {
-        flipSpecificCharacter5 T = new flipSpecificCharacter5();
+        FlipSpecificCharacter5 T = new FlipSpecificCharacter5();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         System.out.println(T.solution(str));

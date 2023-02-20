@@ -3,10 +3,10 @@ package inflearn.string;
 
 import java.util.Scanner;
 
-public class shortestTextDistance10 {
+public class ShortestTextDistance10 {
 
     public static void main(String[] args) {
-        shortestTextDistance10 T = new shortestTextDistance10();
+        ShortestTextDistance10 T = new ShortestTextDistance10();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         char c = sc.next().charAt(0);
